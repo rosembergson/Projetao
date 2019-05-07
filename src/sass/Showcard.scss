@@ -1,0 +1,65 @@
+// Pai //
+.showcard{
+
+}
+.showcardbg{
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    padding:0;
+}
+ // Primeiros filhos do pai //
+
+.showcardbg_cards{
+    color:#ff4a5a;
+    list-style: none;
+    width:20%;
+    height: auto;
+    font-family: 'Muli', sans-serif;
+    border: 0.1px solid rgba($color: #b8b7b7, $alpha: 0.5);
+        .cards--button{
+            background:#ff4a5a;
+            border:none;
+            color:white;
+            padding:5px 10px;
+            cursor: pointer;
+        }
+        .cards--img{
+            img{
+                width:100%;
+                height:150px;
+                margin:0;
+                box-sizing: border-box;
+            }
+            span{
+                margin: 0;
+                margin-left:5px;
+                display: block;
+                width:20%;
+                text-align: center;
+                background:#ff4a5a;
+                color:white;
+                padding:5px;
+            }
+        }
+        .cards--titule3{
+            margin-left:5px;
+            font-family: 'Playfair Display', serif; 
+            color:#2e3038;
+        }
+
+        .cards--titule6{
+            margin-left:5px;
+        }
+
+        .cards--dates{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            li{
+                font-size:10px;
+                padding:10px;
+            }
+        }
+}

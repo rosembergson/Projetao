@@ -1,0 +1,51 @@
+.liscomponentsbg1{
+    width:100%;
+    font-family: 'Muli', sans-serif;
+    height: 300px;
+    .listcomponentes_adicionar{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        input{
+            width:90%;
+            padding:10px;
+            outline: none;
+            display: flex;
+            align-self: center;
+            border-radius:30px;
+            border:1px solid black;
+        }
+    }
+    .listcomponentesbg2{
+        width:100%;
+        .listcomponentesbg2_ul{
+            list-style: none;
+            overflow: auto;
+            margin:0;
+            
+            width:auto;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            button{
+                padding:5px 25px;
+                background: #ff4a5a;
+                color:white;
+                border:none;
+                outline: none;
+                cursor: pointer;
+                box-shadow: 4px 3px 9px black;
+            }
+            li{
+                width:25%;
+                margin:0;
+                display: flex;
+                justify-content:flex-start;
+            }
+        }
+    }
+                    
+
+    
+}
+

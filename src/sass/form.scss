@@ -1,0 +1,54 @@
+.componente1bg{
+    width:100%;
+    background: #ff4a5a;
+    height: 500px;
+    color:white;
+    font-family: 'Muli', sans-serif;
+    display:flex;
+    justify-content: center;
+    
+    .componente1bg_form{
+        margin:0;
+        padding:10px;
+        width:70%;
+        align-self: center;
+        label{
+            margin:0;
+            padding:0;
+        }
+        .form--inp{
+            display: block;
+            margin-bottom: 15px;
+            margin-right: 10px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.5);
+            border:none;
+            margin:0;
+            width:98%;
+            padding:10px;
+            outline:none;
+        }
+        .form--select{
+            background: rgba(255, 255, 255, 0.5);
+            width:30%;
+            outline:none;
+        }
+        .componente1bg_labellast{
+            margin-left:100px;
+        }
+        .button1bg{
+            display: block;
+            padding:10px 30px;
+            border:none;
+            background: #2e3038;
+            color:white;
+            border-radius:20px;
+            outline:none;
+            cursor: pointer;
+            margin-top:15px;
+        }
+        .button1bg:hover{
+            transform: scale(0.9);
+        }
+    }
+}
